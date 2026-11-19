@@ -93,11 +93,6 @@ Les valeurs ne sont jamais publiées dans le dépôt.
 - **Supabase (base de données)** : PostgreSQL hébergé et gratuit, avec une URL de connexion prête à l'emploi.
 - **GitHub (code source)** : versionnement du code et point de départ des déploiements automatiques.
 
-### Principales configurations
-
-- **Render** : commande de build `[à compléter]`, commande de démarrage `[à compléter]`, variable `DATABASE_URL`.
-- **Vercel** : dépôt GitHub connecté, URL de l'API Render configurée dans le frontend.
-- **Supabase** : table `tickets` créée, chaîne de connexion récupérée et placée uniquement sur Render.
 
 ### Problème rencontré et résolution
 
