@@ -3,8 +3,7 @@
 Application web trois tiers pour suivre les incidents informatiques.
 Un utilisateur peut déclarer un incident, voir les tickets existants et changer leur statut (**Ouvert**, **En cours**, **Résolu**).
 
-**Groupe :** Mikail, Ethan, Manu — YNOV, novembre 2026
-
+**Groupe :** Mikail, Ethan, Manu
 ---
 
 ## Liens publics
@@ -12,8 +11,8 @@ Un utilisateur peut déclarer un incident, voir les tickets existants et changer
 | Élément | URL |
 |---|---|
 | Frontend (Vercel) | `https://...` |
-| API backend (Render) | `https://...` |
-| Vérification de l'API | `https://.../health` |
+| API backend (Render) | `https://herbegement.onrender.com/` |
+| Vérification de l'API | `https://herbegement.onrender.com/health` |
 
 ---
 
@@ -100,8 +99,8 @@ Les valeurs ne sont jamais publiées dans le dépôt.
 
 ### Problème rencontré et résolution
 
-- **Problème** : [à compléter]
-- **Résolution** : [à compléter]
+- **Problème** : chemin qui sort "not founf"
+- **Résolution** : Pour réussir à régler le soucis, je suis passer sur une session pooler directement sur render.
 
 ### Limites des offres gratuites
 
