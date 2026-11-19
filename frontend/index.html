@@ -23,8 +23,11 @@
 
   <div id="tickets-list"></div>
 
+  <!-- 👈 MODIFIÉ : config.js est créé par Vercel et contient l'URL de l'API -->
+  <script src="config.js"></script>
   <script>
-    const API_URL = "http://localhost:3000";
+    // 👈 MODIFIÉ : URL fournie par Vercel (variable d'environnement), sinon localhost pour les tests en local
+    const API_URL = window.API_URL || "http://localhost:3000";
 
     async function chargerTickets() {
       const res = await fetch(`${API_URL}/api/tickets`);
