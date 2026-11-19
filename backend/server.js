@@ -29,6 +29,13 @@ async function initDb() {
   `);
 }
 
+app.get("/", (_req, res) => {
+  res.status(200).json({
+    message: "API tickets opérationnelle",
+    routes: ["/health", "/api/tickets"],
+  });
+});
+
 app.get("/health", async (_req, res) => {
   try {
     await pool.query("SELECT 1");
